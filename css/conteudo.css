@@ -15,7 +15,7 @@ vh = view height  */
 /* 
 Utilizando as propriedades especificas
 GROW/BASIS/SHRINK */
-.conteudo > div{
+.conteudo div{
     /* flex-grow: 1;
     flex-shrink: 1;
     flex-basis: 300px; */

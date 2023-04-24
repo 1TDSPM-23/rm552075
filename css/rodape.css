@@ -1,0 +1,36 @@
+.rodape{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fa8100;
+    border-top: solid 5px #4F200D;
+    height: auto;
+}
+
+.rodape h2{
+    flex-grow: 2;
+    flex-basis: 188px;
+    color: #FFF;
+}
+
+.rodape nav{
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.rodape nav a {
+    flex-grow: 1;
+    padding: 5% 0;
+}
+
+.rodape nav img{
+    max-width: 20%;
+    display: block;
+    margin: 0 auto;
+}
+
+.rodape a:hover{
+    background-color: #ffa03a;
+}
