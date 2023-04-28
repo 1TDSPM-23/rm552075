@@ -29,3 +29,30 @@ GROW/BASIS/SHRINK */
 .conteudo table th, td{
     border: 2px solid #000
 }
+
+table{
+    border-collapse: collapse;
+    margin: 5% auto;
+}
+
+th, td{
+    border: 2px solid #4d4d4d;
+    padding: 8px;
+}
+
+tr:nth-child(even){
+    background-color: #CCC;
+}
+
+tr:nth-child(odd){
+    background-color: rgb(160, 160, 160);
+}
+
+tr:nth-child(1){
+    background-color: #131313;
+    color: #FFF;
+}
+
+tr:hover{
+    background-color: #1b1b1b7c;
+}
