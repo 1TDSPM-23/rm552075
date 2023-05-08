@@ -1,8 +1,9 @@
-/* ================================= */
+/* ================================ */
 @import url("./cabecalho.css");
 @import url("./conteudo.css");
 @import url("./estilo-628x.css");
-/* ================================= */
+@import url("./rodape.css");
+/* ================================ */
 *{
     margin: 0;
     padding: 0;
@@ -11,6 +12,7 @@
 
 html{
     font-size: 62.5%;
+    background-color: #FFF;
 }
 
 .tit-sec{
@@ -18,4 +20,3 @@ html{
     font-size: 5rem;
     margin: 5% 0;
 }
-
