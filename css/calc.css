@@ -1,20 +1,33 @@
+
 .calc{
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
 }
 
-.calc__btn{
+.btn-calc{
     display: flex;
     flex-wrap: wrap;
 }
-
-.calc__btn button{
+.btn-calc button{
     flex-grow: 1;
     margin: 2% 0;
 }
 
-.calc__result button{
+.oper-calc{
+    display: flex;
+    flex-wrap: wrap;
+}
+.oper-calc button{
+    flex-grow: 1;
+    margin: 2% 0;
+}
+
+.result-calc{
+    display: flex;
+    flex-wrap: wrap;
+}
+.result-calc button{
     flex-grow: 1;
     margin: 2% 0;
 }
