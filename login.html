@@ -6,13 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ENTRAR</title>
 
-    <script src="./js/script.js" defer></script>
+    <script src="./js/login.js" defer></script>
 </head>
 <body>
     <h1>FORMULÁRIO DE ACESSO</h1>
 
     <div>
-        <form action="index.html" method="get"></form>
+        <form action="index.html" method="get" onsubmit="validaFormularioCompleto(idNm, idPass, idCusto)">
         <fieldset>
             <legend>ENTRAR</legend>
             <div>
@@ -24,8 +24,8 @@
                 <input type="password" name="txtPass" id="idPass" placeholder="Senha">
             </div>
             <div>
-                <label for="id-c-custo">Centro de Custo</label>
-                <select name="c-custo" id="id-c-custo">
+                <label for="idCusto">Centro de Custo</label>
+                <select name="c-custo" id="idCusto">
                     <option value="0">Selecione uma opção</option>
                     <option value="sp">São Paulo</option>
                     <option value="rj">Rio de Janeiro</option>
@@ -37,6 +37,7 @@
                 <button type="reset">Limpar</button>
             </div>
         </fieldset>
+        </form>
     </div>
 </body>
 </html>
