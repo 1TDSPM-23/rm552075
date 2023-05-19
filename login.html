@@ -11,8 +11,10 @@
 <body>
     <h1>FORMULÁRIO DE ACESSO</h1>
 
+    <div id="msg"></div>
+
     <div>
-        <form action="index.html" method="get" onsubmit="validaFormularioCompleto(idNm, idPass, idCusto)">
+        <form name="frm01" method="get">
         <fieldset>
             <legend>ENTRAR</legend>
             <div>
@@ -33,8 +35,8 @@
                 </select>
             </div>
             <div>
-                <button type="submit">Entrar</button>
-                <button type="reset">Limpar</button>
+                <button type="submit" id="btnSubmit">Entrar</button>
+                <button type="reset" id="btnLimpar">Limpar</button>
             </div>
         </fieldset>
         </form>
